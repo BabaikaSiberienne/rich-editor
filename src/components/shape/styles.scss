@@ -1,0 +1,12 @@
+.block {
+    background-color: wheat;
+    max-width: 100px;
+    overflow-y: scroll;
+    max-height: 100px;
+}
+
+.fixed {
+    position: sticky;
+    top: 25px;
+    background-color: red;
+}
