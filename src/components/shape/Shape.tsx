@@ -90,7 +90,6 @@ const Shape: React.FC<ShapeProps> = (props) => {
               <button onClick={() => toggleStyle('BOLD')}>B</button>
               <button onClick={() => toggleStyle('ITALIC')}>I</button>
               <button onClick={() => toggleStyle('UNDERLINE')}>U</button>
-              {/* Добавьте дополнительные кнопки для изменения цвета и размера шрифта */}
               <Editor editorState={editorState} onChange={handleEditorChange} />
             </div>
           </Html>
